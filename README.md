@@ -1,4 +1,4 @@
-# Open-source Minecraft Launcher API - TagAPI
+# Open-source Minecraft Launcher Library
 The purpose of the API is to provide developers the ability to download / run Minecraft.
 
 The accessible class which is the API_Interface, consists of the following functions:
