@@ -55,11 +55,11 @@ The accessible class which is the API_Interface, consists of the following funct
 - Download Minecraft (Force Download: False):
 ```java
     tagapi_3.API_Interface API = new tagapi_3.API_Interface();
-    API.downloadMinecraft("1.8.9", false); //download version 1.8.9, without replacing the files
+    API.downloadMinecraft("1.12.2", false); //download version 1.12.2, without replacing the files
 ```
 
 - Launch Minecraft:
 ```java
     tagapi_3.API_Interface API = new tagapi_3.API_Interface();
-    API.runMinecraft("Ammar_Ahmad", "1.8.9"); //run minecraft with username: Ammar_Ahmad, and version: 1.8.9
+    API.runMinecraft("user", "1.12.2"); //run minecraft with username: user, and version: 1.12.2
 ```
